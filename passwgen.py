@@ -11,21 +11,6 @@ class PasswordGenerator():
     SYMBOLS_IXS = list(range(33, 47 + 1)) + list(range(58, 64 + 1)) + \
         list(range(91, 96 + 1)) + list(range(123, 126 + 1))
 
-    # Depending on the given options, constructs a union of relevant indexes from above.
-    def generate_relevant_ixs(self, options):
-        population = []
-        if options["hasLowercase"]:
-            population += self.LOWERCASE_IXS
-        if options["hasUppercase"]:
-            population += self.UPPERCASE_IXS
-        if options["hasNumbers"]:
-            population += self.NUMBERS_IXS
-        if options["hasSpaces"]:
-            population += self.SPACE_IX
-        if options["hasSymbols"]:
-            population += self.SYMBOLS_IXS
-        return population
-
     def strip(self, passwd):
         while(passwd[0] == self.SPACE_IX or passwd[-1] == self.SPACE_IX):
             if(passwd[0] == self.SPACE_IX):
