@@ -1,7 +1,6 @@
 from random import choice, randint, shuffle
 from itertools import groupby
 
-
 class PasswordGenerator():
     # Lists of releveant indexes in the ASCII table.
     LOWERCASE_IXS = list(range(97, 122 + 1))

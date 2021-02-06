@@ -10,9 +10,7 @@
 - [ ] Documentation
 
 ## Additional goals
-- [ ] TDD
 - [ ] Auto copy
 - [ ] Use real words
 - [ ] Use phrases 
-- [ ] Expose API (Flask)
-- [ ] Frontend (Flask)
+- [ ] Batch generation
