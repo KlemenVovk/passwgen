@@ -9,6 +9,5 @@
 - [x] Space option
 - [x] Documentation
 - [x] API Reference
-- [ ] Packaging
 - [ ] README
 - [x] LICENSE
