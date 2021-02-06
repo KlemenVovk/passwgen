@@ -1,5 +1,5 @@
 # passwgen
-## Minimal goals
+## Goals
 - [x] CLI
 - [x] Length option
 - [x] Symbols option
@@ -7,10 +7,8 @@
 - [x] Lowercase option
 - [x] Uppercase option
 - [x] Space option
-- [ ] Documentation
-
-## Additional goals
-- [ ] Auto copy
-- [ ] Use real words
-- [ ] Use phrases 
-- [ ] Batch generation
+- [x] Documentation
+- [x] API Reference
+- [ ] Packaging
+- [ ] README
+- [x] LICENSE
