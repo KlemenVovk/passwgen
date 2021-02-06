@@ -1,12 +1,12 @@
 # passwgen
 ## Minimal goals
-- [ ] CLI
-- [ ] Length option
-- [ ] Symbols option
-- [ ] Numbers option
-- [ ] Lowercase option
-- [ ] Uppercase option
-- [ ] Space option
+- [x] CLI
+- [x] Length option
+- [x] Symbols option
+- [x] Numbers option
+- [x] Lowercase option
+- [x] Uppercase option
+- [x] Space option
 - [ ] Documentation
 
 ## Additional goals
