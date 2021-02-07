@@ -2,7 +2,7 @@
 
 A simple CLI password generator program that can generate passwords with specifed length and chosen types of charachers(lettters, digits, spaces and symbols).
 
-For usage guide and documentation refer to: [Link to be inserted](#)
+For usage guide and API reference refer to the [documentation](https://klemenvovk.github.io/passwgen/).
 
 ## Installation
 Simply clone the repository and run the script.
